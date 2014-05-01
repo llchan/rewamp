@@ -1,0 +1,41 @@
+{
+  "name": "rewamp",
+  "version": "0.1.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/llchan/rewamp.git"
+  },
+  "devDependencies": {
+    "browserify": "^3.44.2",
+    "coffee-loader": "^0.7.1",
+    "coffee-script": "^1.7.1",
+    "connect": "^2.14.5",
+    "envify": "^1.2.1",
+    "es6-loader": "^0.1.0",
+    "es6-module-transpiler": "^0.4.0",
+    "es6ify": "^1.1.0",
+    "gulp": "^3.6.2",
+    "gulp-concat": "^2.2.0",
+    "gulp-if": "^1.1.0",
+    "gulp-less": "^1.2.3",
+    "gulp-livereload": "^1.3.1",
+    "gulp-react": "^0.3.3",
+    "gulp-util": "^2.2.14",
+    "gulp-watch": "^0.6.4",
+    "jsx-loader": "^0.10.0",
+    "react": "^0.10.0",
+    "reactify": "^0.13.1",
+    "traceur": "0.0.39",
+    "vinyl-source-stream": "^0.1.1",
+    "webpack": "^1.1.8",
+    "webpack-dev-server": "^1.2.7"
+  },
+  "browserify": {
+    "transform": [
+      "coffeeify",
+      "reactify",
+      "es6ify"
+    ]
+  }
+}
