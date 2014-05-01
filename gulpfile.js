@@ -64,9 +64,9 @@ gulp.task('server', function() {
 });
 
 gulp.task('watch', function() {
-  gulp.watch('./src/**/*.html', ['html']);
-  gulp.watch('./src/scripts/**', ['scripts']);
-  gulp.watch('./src/styles/**', ['styles']);
+  gulp.watch('src/**/*.html', ['html']);
+  gulp.watch('src/scripts/**', ['scripts']);
+  gulp.watch('src/styles/**', ['styles']);
 });
 
 // gulp.task('default', ['server']);
